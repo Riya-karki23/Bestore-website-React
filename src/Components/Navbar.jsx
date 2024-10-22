@@ -36,6 +36,17 @@ function hidePageBox(){
   return (
     <>
 
+    <div className="right-text-boxes">
+      <div className='right-black-box fixed-box'>
+        <p >700+</p>
+        <p className='text-small'>websites</p>
+      </div>
+      <div className='right-green-box fixed-box'>
+        <IoBagOutline/>
+        <span className='text-small'>Buy now</span>
+      </div>
+    </div>
+
     <section className='nav-upper'>
         <div className="div-inner">
 

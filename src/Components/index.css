@@ -35,6 +35,55 @@
     color: white;
 }
 
+/* --------------------------------------------------------------------------side right divs  */
+.right-text-boxes{
+    position: fixed;
+    right: 0;
+    top: 45%;
+    color: white;
+}
+.text-small{
+    font-size: 11px;
+}
+
+.fixed-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 8px 15px 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.right-black-box{
+    
+    background-color: black;
+}
+.right-green-box{
+    background-color: #80B541;
+    
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .right-black-box p {
+    animation: blink 2s infinite ease-in-out;
+  }
+  
+
+
 /* --------------------------------------------------------------------------Navbar  */
 .main-nav{
     width: 100vw;
@@ -221,6 +270,9 @@ border-radius: 100%;
 @media screen and (min-width:768px) and (max-width:991px){
     
 
+
+
+
     /* -------------------------header */
 
     .header-top{
@@ -267,6 +319,11 @@ border-radius: 100%;
 
 @media screen and (min-width: 10px) and (max-width: 480px) {
 
+    .right-text-boxes{
+        display: none;
+    }
+
+
    .header-top{
     display: none;
    }
@@ -297,6 +354,10 @@ height: 160px;
 /* -------------------------------------for tablets */
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
+    .right-text-boxes{
+        display: none;
+    }
+
     .header-top{
         display: none;
        }
