@@ -1,0 +1,56 @@
+.div-columns{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    top: 172px;
+    margin: 3rem 10rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    z-index: 10;
+    background-color: rgb(227, 227, 227);
+
+}
+
+.div-columns ul li{
+list-style: none;
+color: #898989;
+margin: 5px 0;
+padding: 4px;
+width: 100%;
+}
+
+.div-columns ul li:hover{
+color: rgb(17, 16, 16);
+background-color: gainsboro;
+}
+
+.div-columns ul li:first-child{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --------------------------------------------------------pages hover card */
+.pagesHover-card{
+    background-color: rgb(227, 227, 227);
+    color: #898989;
+    width: fit-content;
+    position: absolute;
+    left: 25rem;
+}
+.pagesHover-card ul li:first-child{
+    border: none;
+}
+
+.pagesHover-card ul li{
+    padding: 12px 50px;
+    border-top: 1px solid rgb(201, 201, 201);
+    list-style: none;
+}
+
+
+
+.pagesHover-card ul li:hover{
+    background-color: gainsboro;
+    color: rgb(17, 16, 16);
+}

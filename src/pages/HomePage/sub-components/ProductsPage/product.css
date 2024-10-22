@@ -1,0 +1,283 @@
+.product-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #161922;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.card-main-div {
+  display: flex;
+  justify-content: center;
+  margin: 0 120px;
+  flex-direction: column;
+}
+.card-top-div {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.card-bottom-div {
+  display: flex;
+  gap: 20px;
+}
+
+/* --------------------------------------------------------------CARD-4 */
+
+.card-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: 482px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card4-heading {
+  font-size: 30px;
+}
+.card4-title {
+  font-size: 15px;
+  text-align: center;
+}
+.outer-time-div {
+  display: flex;
+  padding: 39px 0 70px 0;
+}
+
+.number-days {
+  font-size: 60px;
+  color: #0089f7;
+  text-align: center;
+
+}
+
+.hour-div {
+  margin: 0 54px;
+}
+
+.time-title {
+  font-size: 22px;
+}
+
+/* ------------------------------------------------card */
+.product-card {
+  position: relative;
+}
+
+.card-image {
+  height: 500px;
+  width: 586px;
+  z-index: 6;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-1-text {
+  top: 12rem;
+  right: 50px;
+  color: white;
+}
+.card-2-text {
+  top: 20%;
+  left: 140px;
+}
+.card-3-text {
+  bottom: 40px;
+  left: 150px;
+}
+
+.card-3-cardImage {
+  width: 700px !important;
+}
+
+.text-wrapper h2 {
+  font-size: 30px;
+}
+.text-wrapper p {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.text-wrapper .btn {
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .card-4 {
+    padding: 10px 40px;
+  }
+  .card-main-div {
+    margin: 0 50px;
+  }
+
+  .card-1-text {
+    top: 12rem;
+    right: 10px;
+    color: white;
+  }
+  .card-2-text {
+    top: 20px;
+    left: 30px;
+  }
+  .card-3-text {
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  .hour-div {
+    margin: 0 15px;
+  }
+  .outer-time-div {
+    font-size: 30px;
+  }
+
+  .number-days {
+    font-size: 40px;
+  }
+  .time-title {
+    font-size: 15px;
+  }
+  .card4-heading {
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .card4-title {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  /* ---- */
+  .card-image {
+    height: 400px;
+    width: 586px;
+  }
+}
+
+
+/* -------------------------------------------------------------------------phone screen */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  .card-top-div{
+    flex-direction: column;
+  }
+  .card-bottom-div{
+    flex-direction: column;
+  }
+  .card-main-div{
+    margin: 0 20px;
+  }
+  .card-4{
+    width:100%;
+    padding: 20px ;
+  
+  }
+  .product-title{
+    font-size: 24px;
+  }
+  .card-2-text h2{
+    font-size: 28px;;
+  }   
+  .card-2-text  {
+    left: 50%;
+   transform: translate(-50%, -50%);
+
+  }
+  .card-1-text{
+    top:50%;
+    right: 15px;
+  }
+  .card-2-text p{
+    font-size: 14px;
+  }
+  .outer-time-div{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card4-heading{
+    font-size: 18px;
+  }
+  .card4-title{
+    font-size: 11px;
+  }
+  .card-3-text{
+    left: 0%;
+
+  }
+  .number-days{
+    font-size: 40px;
+  }
+  .time-title{
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .outer-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-top-div{
+    flex-direction: column;
+  }
+  .card-bottom-div{
+    flex-direction: column;
+  }
+  .card-main-div{
+    margin: 0 20px;
+  }
+  .card-image{
+    width: 100vw;
+  }
+  .card-4{
+    width:100%;
+  }
+  .product-title{
+    font-size: 24px;
+  }
+  .card-2-text  p{
+    font-size: 18px;
+  }
+  .outer-time-div{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card4-heading{
+    font-size: 18px;
+  }
+  .card4-title{
+    font-size: 11px;
+  }
+  .card-outer-div{
+    margin: 10px 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card-outer-div{
+    margin: 0 30px;
+  }
+  .card-top-div{
+    flex-direction: row;
+  }
+  .card-main-div{
+    margin: 0 40px;
+  }
+}
+

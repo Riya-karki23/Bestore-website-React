@@ -1,0 +1,181 @@
+.footer-wrapper{
+    background-color: #101111;
+    color: #D1D1D1;
+    padding: 100px 130px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    
+}
+
+.ul-heading{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 19px;
+}
+
+.ul-footer{
+    list-style: none;
+}
+
+.time-text{
+    font-weight: 600;
+} 
+
+.col-3-time{
+    padding: 15px 0;
+}
+li{
+    padding: 5px 0;
+}
+
+li:hover{
+color: #0089f7;
+text-decoration: underline;
+padding: 4px 0;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-4-text{
+    padding-bottom: 18px;
+}
+
+.col-4-topImage{
+    padding-bottom: 8px;
+}
+
+.footer-bottom-section{
+    border-top: 1px solid rgb(124, 124, 124);
+    background-color: #101111;
+    padding: 30px 130px;
+    font-size: 15px;
+    color: #D1D1D1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-link:hover{
+text-decoration: underline;
+color: #0089f7;
+cursor: pointer;
+}
+
+.footer-icons{
+    display: flex;
+    gap:15px;
+}
+
+.col-4-bottomImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ----------------------------------phone screen sticky footer */
+.phoneScreen-fixed-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px ;
+    display: none;
+    background-color: #fff;
+    box-shadow: #868d8d;
+}
+
+.like-badge{
+    background-color: #0089F7;
+    border-radius: 100%;
+    font-size: 11px;
+    color: white;
+    height: 14px;
+    width: 12px;
+    padding: 1px 3px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    left: 15px;
+
+
+}
+.footer-icon-badge{
+    position: relative;
+}
+
+.phone-footer-iconLink{
+    font-size: 22px;
+    color:#101111;
+}
+/* ----------------------------------------------------------- */
+
+@media only screen and (max-width:991px){
+    .footer-wrapper{
+        padding: 100px 60px;
+        gap: 20px;
+    }
+    .col-4-logoImage{
+        width: 180px;
+    }
+
+    .footer-bottom-section{
+        padding: 40px 60px;
+        font-size: 14px;
+
+    }
+}
+
+/* ---------------------------------phone screen */
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .footer-wrapper{
+        flex-direction: column;
+    }
+    .footer-bottom-section{
+        flex-direction: column;
+    }
+    .phoneScreen-fixed-footer{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+    }
+    .ul-heading{
+        text-align: center;
+        font-size: 15px;
+    }
+    .col-2{
+        margin: 30px 0;
+    }
+    .ul-footer{
+        text-align: center;
+        line-height: 11px;
+        font-size: 13px;
+    }
+    .col-3-text{
+        font-size: 13px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .col-4-text{
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer-bottom-section{
+        padding: 60px 35px 150px 35px;
+        text-align: center;
+        font-size: 13px;
+
+    }
+    .footer-icons{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}

@@ -1,0 +1,26 @@
+.wishlist-middle-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.wishlist-empty-text{
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.shop-btn{
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    color: #747474;
+    padding: 16px 20px;
+}
+
+.btn-shop-link{
+    text-decoration: none;
+}

@@ -1,0 +1,164 @@
+.brands-wrapper{
+    margin: 20px 160px;
+    text-align: center;
+}
+
+.brand-logo-image{
+    height: 55px;
+    width: 150px;
+}
+
+.brands-heading{
+    font-size: 40px;
+}
+
+.brands-wrapper ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+align-items: center;
+padding: 60px 0;
+}
+
+
+.brand-logo-image{
+    background-color: #f8fcff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.brand-logo-image:hover{
+    background-color: #edf4f9;
+
+}
+
+.bottom-text{
+    display: flex;
+    padding: 60px 0;
+}
+
+.heading-bottom{
+    font-size: 20px;
+    color:#161922;
+}
+
+.bottom-para{
+    font-style: 15px;
+    color: #9a9898;
+}
+
+.bottom-left-text{
+text-align: left;
+padding-right: 150px;
+}
+
+.bottom-right-text{
+text-align: left;
+}
+
+.text-gray{
+    font-weight: 600;
+}
+
+.text-blue{
+    color: #0089f7;
+}
+
+
+/* ------------------ */
+
+.brands-page-bottom-section{
+background-color: rgb(240, 248, 251);
+display: flex;
+padding: 60px 150px;
+justify-content: space-between;
+align-items: center;
+}
+
+.bottom-title{
+    font-size: 30px;
+    color: #161922;
+}
+.bottom-text-para{
+    font-size: 15px;
+    color: #626262;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:991px){
+    .brands-page-bottom-section{
+        
+        padding: 60px 50px;
+        gap: 30px;
+       
+        }
+
+        .brands-wrapper{
+            margin: 10px 80px;
+        }
+        
+        .bottom-left-text{
+            padding-right: 70px;
+        }
+        
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+
+    .brands-wrapper{
+        margin: 10px 34px;
+    }
+.bottom-text{
+    flex-direction: column;
+}
+.brands-page-bottom-section{
+    flex-direction: column;
+}
+.brands-heading{
+    font-size: 24px;
+}
+.brand-logo-image{
+padding: 3px;
+background-color: #fbfbfb;
+}
+.brands-wrapper ul{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.brand-logo-image{
+    height: 34px;
+    width: 85px;
+}
+.brands-li{
+    padding:15px 12px ;
+    background-color:#fbfbfb ;
+    margin: 8px;
+}
+
+/* --------------------------------------------------------------bottom para */
+.heading-bottom{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+.bottom-left-text{
+    font-size: 13px;
+    padding: 0;
+}
+.bottom-text{
+    padding: 0;
+}
+.bottom-right-text{
+    margin: 40px 0;
+    font-size: 13px;
+}
+.bottom-title{
+    font-size: 18px;
+    text-align: center;
+}
+.bottom-text-para{
+    font-size: 13px;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------------------------------------------------------------top header */
+.navbar-phoneScreen{
+    display: none;
+}
+
+.header-top{
+    width: 100vw;
+    background-color: #101015;;
+    color: #BBBBBB;
+     padding: 15px 0px; 
+    font-size: medium;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-text{
+    margin: 0 130px;
+}
+
+.top-icons{
+    display: flex;
+    gap: 10px;
+    margin: 0 130px;
+}
+
+.icon:hover{
+    color: white;
+}
+
+/* --------------------------------------------------------------------------Navbar  */
+.main-nav{
+    width: 100vw;
+    background-color: bisque;
+    width: 100%;
+}
+.div-inner{
+    margin: 0 130px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-image{
+    height: auto;
+    width: 200px;
+}
+
+.div-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #BBBBBB;
+    width: 100%;
+    margin: 0 15px;
+}
+.div-search input{
+    font-size: 17px;
+    border: #dfdddd;
+    font-weight:normal;
+
+}
+.nav-search{
+    width: 48rem;
+    outline: none;
+    padding: 15px 3px;
+    border: #dfdddd;
+    display: flex; 
+}
+
+.search-icon{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.nav-icons{
+    display: flex;
+    font-size: 18px;
+    gap: 18px;
+
+}
+/* ------------------------------------------------------nav-bottom */
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 130px;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+/* ----------------------------------------------------navLink */
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-link:hover{
+    text-decoration: none !important;
+
+}
+
+/* ----------------------------------------------------------------navbar phone screen */
+.navbar-phoneScreen{
+    background-color: white;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    font-size: 25px;
+    display: none;
+}
+
+/* -------------------------------------------------------- */
+
+
+.nav-ul li{
+    color: #2A2B39;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-ul li:hover{
+color:#0089F7;
+cursor: pointer;
+text-decoration: none;
+}
+
+.like-icon{
+    position: relative;
+}
+
+.like-badge{
+    background-color: #0089F7;
+    border-radius: 100%;
+    font-size: 10px;
+    color: white;
+    height: 18px;
+    width: 16px;
+    padding: 1px 3px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6px;
+    left: 18px;;
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------circle.jsx */
+.outer-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height:34px;
+width: 34px;
+border: 2px solid gainsboro;
+border-radius: 100%;
+}
+.inner-circle{
+    height: 30px;
+width: 30px;
+border-radius: 100%;
+}
+
+/* ---------------------------------counter div */
+
+.Counter-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    padding: 5rem 0 2rem 0;
+}
+.Counter-div span{
+    color: #0089F7;
+}
+
+/* ----------------------------------------Card component */
+
+.card{
+    height: 200px;
+    width: 200px;
+    padding: 60px 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: bold;
+}
+
+
+/* --------------------------------------------media query */
+
+@media screen and (min-width:768px) and (max-width:991px){
+    
+
+    /* -------------------------header */
+
+    .header-top{
+         padding: 12px 0px; 
+        }
+    
+    .header-top-text{
+        margin: 0 60px;
+    }
+    
+
+/* ---------------------------------Navbar */
+    .div-inner{
+        margin: 20px 90px 70px 90px;
+    }
+   
+    .nav-icons{
+        font-size: 22px;
+        gap:20px;
+    
+    }
+    .div-search{
+        width: 50%;
+    }
+
+
+    /* ------------------------------------------------------nav-bottom */
+.nav-bottom{
+    display: none;
+}
+   
+
+.Counter-div{
+    margin:0;
+    padding: 20px 0;
+}
+
+/* -----------------------sidenav */
+.sidenav-wrapper{
+    display: inline-block;
+}
+
+}
+
+@media screen and (min-width: 10px) and (max-width: 480px) {
+
+   .header-top{
+    display: none;
+   }
+   .nav-upper{
+    display: none;
+   }
+.navbar-phoneScreen{
+   display: flex;
+}
+
+.Counter-div{
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+}
+/* --------------cards product page */
+.card{
+max-width: 130px;
+height: 160px;
+}
+   .card-title-label{
+    font-size: 13px;
+   }
+   
+}
+
+
+/* -------------------------------------for tablets */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .header-top{
+        display: none;
+       }
+       .nav-upper{
+        display: none;
+       }
+    .navbar-phoneScreen{
+       display: flex;
+    }
+    .Counter-div{
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .nav-bottom{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+   .nav-bottom{
+    display: none;
+   }
+   .div-search{
+    width: 65%;
+   }
+   
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1400px) {
+    .nav-bottom{
+        display: flex;
+    }
+    
+}
