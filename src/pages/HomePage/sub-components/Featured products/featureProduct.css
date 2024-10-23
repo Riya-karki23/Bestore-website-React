@@ -34,7 +34,7 @@ font-size: 40px;
   }
 
     .outer-card-wrapper{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
    
 }
@@ -57,11 +57,13 @@ font-size: 40px;
 @media screen and (min-width: 481px) and (max-width: 991px) {
     .outer-card-wrapper{
         grid-template-columns: repeat(2,1fr);
-        gap: 30pxpx;
+        gap: 30px;
     }
     .feature-title{
         font-size: 30px;
     }
 }
+
+
 
 

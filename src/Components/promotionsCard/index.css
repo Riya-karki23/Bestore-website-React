@@ -126,3 +126,11 @@ color:#0089F7
    }
    
 }
+
+
+@media screen and (min-width:1200px){
+    .card-outer-div{
+        margin: 15px;
+    }
+    
+}
